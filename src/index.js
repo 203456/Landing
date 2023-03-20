@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import 'bulma/css/bulma.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar/Navbar';
 import Landing from './pages/Landing';
-import Navbar from './components/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

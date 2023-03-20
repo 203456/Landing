@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+}
+
+.navv{
+    margin-top: -10px; 
+    background-color: #d8d8d8b4;
+    display: flex;
+    font-size: 26px;
+    text-align: center;  
+
+}
+.navbar-end{
+    
+    font-weight: 900;
+    margin-left: auto;
+    color: black;
+}

@@ -1,0 +1,24 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-top: 10px;
+  }
+.column {
+    padding: 20px;
+    text-align: center;
+}
+.platillos{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.content{
+    font-size: 16.2px;
+    color: white;
+}
+.h1{
+    color: black;
+}

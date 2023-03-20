@@ -1,13 +1,12 @@
 import React from 'react';
-import image from '../assets/fondo1.png';
+import './Navbar.css'
 
 
 export default function Navbar() {
-
   return (
-    <nav className="navbar is-light" role="navigation" aria-label="main navigation" >
+    <nav className="navv" >
       <div className="navbar-brand">
-        <a className="navbar-item">
+        <a className="logo">
           <h1>Our logo</h1>
         </a>
       </div>
@@ -25,6 +24,7 @@ export default function Navbar() {
           <a className="navbar-item">
             SOBRE NOSOTROS
           </a>
+
         </div>
       </div>
     </nav>
